@@ -10,11 +10,13 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 | Cost | Free (Apache 2.0) |
 | Open source | Yes |
 | Platform | Java / PostgreSQL - runs anywhere, Docker image available |
-| Access | [ehrbase.org](https://ehrbase.org/) / [github.com/ehrbase/ehrbase](https://github.com/ehrbase/ehrbase) |
+| Owner and steward | [EHRbase project](https://www.ehrbase.org/about-ehrbase/), supported by [vitagroup](https://www.vitagroup.ag/) |
+| Available from | [EHRbase download](https://www.ehrbase.org/download/) |
+| Source | [github.com/ehrbase/ehrbase](https://github.com/ehrbase/ehrbase) |
 | Commercial support | Available through vitagroup (HIP EHRbase, HIP CDR) |
 | Sandbox | [sandkiste.ehrbase.org](https://sandkiste.ehrbase.org/) - free public sandbox |
 
-**What it is:** The leading open-source openEHR clinical data repository. It is built by vitagroup in collaboration with Hannover Medical School.
+**What it is:** An open-source openEHR clinical data repository developed through the EHRbase project, vitagroup, Hannover Medical School, and HiGHmed.
 
 **What it does:** It provides a standards-compliant openEHR server with REST API support, an AQL query engine, template management, composition storage, and EHR management.
 
@@ -28,7 +30,8 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 | Cost | Commercial |
 | Open source | No |
 | Platform | Cloud / on-premise |
-| Access | [better.care](https://www.better.care/) |
+| Owner and developer | [Better](https://www.better.care/about-us/) |
+| Available from | [Better Platform](https://www.better.care/better-platform/) |
 
 **What it is:** A comprehensive commercial openEHR platform from Better. It includes a CDR, the EHR Studio toolset for AQL querying and composition management, and associated SDK tooling.
 
@@ -42,7 +45,9 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 | Cost | Free / open source |
 | Open source | Yes |
 | Platform | Grails / Java - self-hostable |
-| Access | [github.com/ppazos/cabolabs-ehrserver](https://github.com/ppazos/cabolabs-ehrserver) |
+| Owner and developer | [CaboLabs](https://cabolabs.com/our_software/ehrserver) |
+| Available from | [CaboLabs EHRServer](https://cabolabs.com/our_software/ehrserver) |
+| Source | [github.com/ppazos/cabolabs-ehrserver](https://github.com/ppazos/cabolabs-ehrserver) |
 
 **What it is:** An open-source, service-oriented openEHR CDR from Cabolabs. It provides a secure REST API supporting JSON and XML, with query capabilities.
 

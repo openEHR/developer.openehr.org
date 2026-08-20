@@ -8,11 +8,12 @@ These are the places where archetypes and templates are stored, governed, and sh
 | --- | --- |
 | Status | Current - the canonical international archetype repository |
 | Cost | Free to use (registration required to contribute) |
-| Open source | Underlying software is commercial; content is CC-BY-SA 3.0 |
-| Access | [ckm.openehr.org/ckm](https://ckm.openehr.org/ckm/) |
+| Operator | [openEHR International](https://openehr.org/) |
+| Platform provider | [Ocean Health Systems](https://oceanhealthsystems.com/about/) |
+| Available from | [International CKM](https://ckm.openehr.org/ckm/) |
 | GitHub mirror | [github.com/openEHR/CKM-mirror](https://github.com/openEHR/CKM-mirror) |
 
-**What it is:** The global repository and governance environment for openEHR archetypes and templates, run by openEHR International and powered by Ocean Health Systems software. Published archetypes are available under Creative Commons Attribution-ShareAlike 3.0.
+**What it is:** The global repository and governance environment for openEHR archetypes and templates, operated by openEHR International on the Ocean Health Systems CKM platform.
 
 **What it does:** It hosts the lifecycle of archetypes from proposal through community review to publication. It includes terminology binding management, FHIR and OMOP mappings, AQL query artefacts, and release-set governance.
 
@@ -25,5 +26,7 @@ These are the places where archetypes and templates are stored, governed, and sh
 | Status | Active |
 | Cost | Commercial (lighter-weight than full CKM) |
 | Open source | No |
+| Owner and developer | [Ocean Health Systems](https://oceanhealthsystems.com/about/) |
+| Available from | [CKM Rocks](https://oceanhealthsystems.com/software/ckm-rocks) |
 
 **What it is:** A lighter-weight version of the CKM platform for smaller organisations that need local governance without the full CKM feature set.

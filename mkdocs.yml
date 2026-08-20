@@ -8,6 +8,10 @@ copyright: Copyright 2026 openEHR International. Content is licensed under CC BY
 
 theme:
   variant: modern
+  logo: assets/openehr-logo.svg
+  palette:
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.indexes
@@ -30,3 +34,6 @@ nav:
       - Overview: implementation/index.md
   - Conformance:
       - Overview: conformance/index.md
+
+extra_css:
+  - stylesheets/extra.css

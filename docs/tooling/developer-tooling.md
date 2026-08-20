@@ -8,14 +8,15 @@
 | Cost | Free |
 | Open source | Yes |
 | Platform | Windows, Linux, macOS (via VS Code) |
-| Access | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NedapHealthcare.openehr-adl-lsp) |
+| Owner and developer | [Nedap Healthcare](https://www.nedap.com/) |
+| Available from | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NedapHealthcare.openehr-adl-lsp) |
 | Source | [github.com/nedap/archetype-languageserver](https://github.com/nedap/archetype-languageserver) |
 
 **What it is:** A VS Code extension that adds ADL 1.4 and ADL 2 syntax highlighting, validation, and AQL editing support.
 
 **Who should use it:** Developers who use VS Code and want to edit archetypes or write AQL queries without switching to a browser-based tool.
 
-## openEHR SDK (EHRbase / vitagroup)
+## openEHR SDK
 
 | | |
 | --- | --- |
@@ -23,11 +24,13 @@
 | Cost | Free (Apache 2.0) |
 | Open source | Yes |
 | Language | Java |
+| Owner and steward | [EHRbase project](https://www.ehrbase.org/) |
+| Available from | [GitHub releases](https://github.com/ehrbase/openEHR_SDK/releases) |
 | Source | [github.com/ehrbase/openEHR_SDK](https://github.com/ehrbase/openEHR_SDK) |
 
 **What it is:** A Java SDK for working with openEHR artefacts: parsing and serialising compositions, working with templates, and building AQL queries. EHRbase uses it internally.
 
-## Archie (Nedap)
+## Archie
 
 | | |
 | --- | --- |
@@ -35,29 +38,38 @@
 | Cost | Free (Apache 2.0) |
 | Open source | Yes |
 | Language | Java |
+| Current owner | [openEHR](https://github.com/openEHR) |
+| Original author | [Nedap](https://www.nedap.com/) |
+| Available from | [github.com/openEHR/archie](https://github.com/openEHR/archie) |
 | Source | [github.com/openEHR/archie](https://github.com/openEHR/archie) |
 
 **What it is:** A Java library implementing the openEHR Reference Model and an ADL 2 parser. EHRbase uses it as its RM implementation.
 
-## ADL2 Core Libraries (Better/Marand)
+## ADL2 Core Libraries
 
 | | |
 | --- | --- |
-| Status | Active |
+| Status | Source available; maintenance status unclear |
 | Cost | Free |
 | Open source | Yes |
 | Language | Java |
+| Current owner | [openEHR](https://github.com/openEHR) |
+| Original author | Marand, now [Better](https://www.better.care/about-us/) |
+| Available from | [github.com/openEHR/adl2-core](https://github.com/openEHR/adl2-core) |
 | Source | [github.com/openEHR/adl2-core](https://github.com/openEHR/adl2-core) |
 
 **What it is:** A Java-based reference implementation of the ADL 2.0 and AOM specifications, open-sourced by Marand.
 
-## FHIR Bridge (vitagroup)
+## FHIR Bridge
 
 | | |
 | --- | --- |
-| Status | Active |
+| Status | Source available; release and support status unclear |
 | Cost | Free (Apache 2.0) |
 | Open source | Yes |
+| Current owner | [vitagroup](https://www.vitagroup.ag/) |
+| Original author | [EHRbase project](https://www.ehrbase.org/) |
+| Available from | [github.com/vitagroupag/fhir-bridge](https://github.com/vitagroupag/fhir-bridge) |
 | Source | [github.com/vitagroupag/fhir-bridge](https://github.com/vitagroupag/fhir-bridge) |
 
 **What it is:** A broker between HL7 FHIR clients and an openEHR server, specifically EHRbase. It allows FHIR-speaking applications to read and write data to an openEHR CDR.

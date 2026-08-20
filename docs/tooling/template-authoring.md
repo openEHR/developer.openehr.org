@@ -2,7 +2,12 @@
 
 Templates assemble archetypes for specific clinical use cases. In ADL 2 the distinction blurs because a template is a specialised archetype, but in ADL 1.4 templates are separate artefacts with their own tooling.
 
-## Archetype Designer (Better/Marand) - template mode
+## Archetype Designer - template mode
+
+| | |
+| --- | --- |
+| Owner and developer | [Better](https://www.better.care/about-us/) |
+| Available from | [tools.openehr.org/designer](https://tools.openehr.org/designer/) |
 
 Archetype Designer handles both archetype and template authoring in a single tool. It is the recommended path for template work today.
 
@@ -15,7 +20,8 @@ Archetype Designer handles both archetype and template authoring in a single too
 | Open source | No |
 | Platform | Windows only |
 | ADL support | .oet templates only |
-| Access | [Ocean Template Designer](http://downloads.oceaninformatics.com/downloads/TemplateDesigner/) |
+| Owner and developer | [Ocean Health Systems](https://oceanhealthsystems.com/about/) |
+| Available from | [Ocean Template Designer](https://oceanhealthsystems.com/software/template-designer/) |
 
 **What it is:** The original template authoring tool from Ocean Informatics, now Ocean Health Systems, used alongside the Archetype Editor. It produces `.oet` files, the pre-ADL 2 template format, which are then compiled to OPTs.
 
@@ -27,12 +33,13 @@ Archetype Designer handles both archetype and template authoring in a single too
 
 | | |
 | --- | --- |
-| Status | Active - commercial |
-| Cost | Commercial (pricing not publicly listed) |
+| Status | Web-based |
+| Cost | Contact supplier |
 | Open source | No |
 | Platform | Web-based |
-| Access | [medicalflows.com](https://medicalflows.com/) |
+| Owner | [Medical Flows](https://medicalflows.com/) |
+| Available from | [Medical Flows](https://medicalflows.com/) |
 
-**What it is:** A commercial modelling tool for creating executable medical workflows with openEHR CDR support. It is not a replacement for Archetype Designer: it targets clinical pathways, guidelines, protocols, and task-planning workflows.
+**What it is:** A modelling tool for creating executable medical workflows with openEHR CDR support. It is not a replacement for Archetype Designer: it targets clinical pathways, guidelines, protocols, and task-planning workflows.
 
 **Who should use it:** Organisations modelling and executing care processes and clinical decision logic, not only data structures.

@@ -1,0 +1,45 @@
+:root > * {
+  --md-default-bg-color: #fffffe;
+  --md-default-fg-color: #363636;
+  --md-primary-fg-color: #016fb9;
+  --md-primary-fg-color--light: #258bb0;
+  --md-primary-fg-color--dark: #005a87;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #7a4c11;
+  --md-typeset-a-color: #016fb9;
+}
+
+.md-header__button.md-logo img {
+  height: 2.4rem;
+  width: auto;
+}
+
+.md-nav__button.md-logo {
+  width: 3.5rem;
+}
+
+.md-nav__button.md-logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.md-tabs {
+  border-bottom: 3px solid #ff861c;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:focus-visible,
+.md-tabs__link:hover {
+  color: #016fb9;
+}
+
+:focus-visible {
+  outline: 3px solid #016fb9;
+  outline-offset: 3px;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-header__button.md-logo img {
+    height: 2rem;
+  }
+}
