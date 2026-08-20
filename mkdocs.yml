@@ -4,7 +4,7 @@ site_url: https://developer.openehr.org/
 repo_url: https://github.com/openEHR/developer.openehr.org
 repo_name: openEHR/developer.openehr.org
 edit_uri: edit/main/docs/
-copyright: Copyright 2026 openEHR International. Content is licensed under CC BY-SA 4.0.
+copyright: Copyright ⓒ 2026 openEHR International. Content is licensed under CC BY-SA 4.0.
 
 theme:
   variant: modern
