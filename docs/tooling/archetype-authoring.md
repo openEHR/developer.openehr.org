@@ -89,5 +89,3 @@ These tools create and edit archetypes from scratch or modify existing ones.
 **What LinkEHR Studio adds:** Data normalisation and mapping workflows, plus the LinkEHR Model Manager for publication and governance of clinical models.
 
 **Who should use it:** Organisations needing to work across multiple standards or perform data transformation.
-
-Next: [Template Authoring Tools](template-authoring.md).

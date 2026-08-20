@@ -25,5 +25,3 @@ The most common way to run AQL queries against EHRbase is directly through the R
 | Source | Available through CRS4 GitHub, derived from Better's open-source UI components |
 
 **What it is:** An adaptation of Better's open-source AQL Builder UI components, modified to work with EHRbase rather than Better Platform.
-
-Next: [Deprecated Tools](deprecated-tools.md).

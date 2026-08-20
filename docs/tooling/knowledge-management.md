@@ -27,5 +27,3 @@ These are the places where archetypes and templates are stored, governed, and sh
 | Open source | No |
 
 **What it is:** A lighter-weight version of the CKM platform for smaller organisations that need local governance without the full CKM feature set.
-
-Next: [Developer Tooling](developer-tooling.md).

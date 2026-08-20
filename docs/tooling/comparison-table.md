@@ -19,5 +19,3 @@
 | openEHR SDK (Java) | SDK for EHRbase/openEHR | Free | Yes | Java | Active |
 | ADL2 Core (Marand) | ADL 2 Java reference implementation | Free | Yes | Java | Active |
 | FHIR Bridge | FHIR-to-openEHR broker | Free | Yes | Java | Active |
-
-Next: [Getting Help](getting-help.md).

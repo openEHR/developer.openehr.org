@@ -47,5 +47,3 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 **What it is:** An open-source, service-oriented openEHR CDR from Cabolabs. It provides a secure REST API supporting JSON and XML, with query capabilities.
 
 **Who should use it:** Smaller projects and teams wanting a lighter-weight alternative to EHRbase, particularly in Latin America where Cabolabs is active.
-
-Next: [Knowledge Management](knowledge-management.md).

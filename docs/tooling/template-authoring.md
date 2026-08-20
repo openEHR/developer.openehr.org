@@ -36,5 +36,3 @@ Archetype Designer handles both archetype and template authoring in a single too
 **What it is:** A commercial modelling tool for creating executable medical workflows with openEHR CDR support. It is not a replacement for Archetype Designer: it targets clinical pathways, guidelines, protocols, and task-planning workflows.
 
 **Who should use it:** Organisations modelling and executing care processes and clinical decision logic, not only data structures.
-
-Next: [Clinical Data Repositories](clinical-data-repositories.md).
