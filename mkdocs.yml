@@ -11,6 +11,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
+    - navigation.footer
 
 nav:
   - Home: index.md
