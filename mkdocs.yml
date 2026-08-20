@@ -1,0 +1,24 @@
+site_name: openEHR Developer Guide
+site_description: Developer guidance for implementing and conforming to openEHR.
+site_url: https://developer.openehr.org/
+repo_url: https://github.com/openEHR/developer.openehr.org
+repo_name: openEHR/developer.openehr.org
+edit_uri: edit/main/docs/
+copyright: Copyright 2026 openEHR International. Content is licensed under CC BY-SA 4.0.
+
+theme:
+  variant: modern
+
+nav:
+  - Home: index.md
+  - Tooling Guide:
+      - Overview: tooling/index.md
+      - Archetype Authoring: tooling/archetype-authoring.md
+      - Template Authoring: tooling/template-authoring.md
+      - Clinical Data Repositories: tooling/clinical-data-repositories.md
+      - Knowledge Management: tooling/knowledge-management.md
+      - Developer Tooling: tooling/developer-tooling.md
+      - Query Tools: tooling/query-tools.md
+      - Deprecated Tools: tooling/deprecated-tools.md
+      - Comparison Table: tooling/comparison-table.md
+      - Getting Help: tooling/getting-help.md

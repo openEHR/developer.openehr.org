@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: 2026 openEHR International
+# SPDX-License-Identifier: CC-BY-SA-4.0
+# Builds the site and verifies that each documentation page is in the navigation.
+
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.x"
+      - run: pip install -r requirements.txt
+      - run: zensical build --clean
+      - name: Check navigation
+        run: |
+          nav_pages=$(grep -oE '[A-Za-z0-9_./-]+\.md' mkdocs.yml | sort -u)
+          doc_pages=$(find docs -name '*.md' -printf '%P\n' | sort)
+          test "$nav_pages" = "$doc_pages"
+
+  workflow-security:
+    name: GitHub Actions security
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: taiki-e/install-action@5b4d68e2e660441203ab128a23676f1e4faf1532 # v2.86.3
+        with:
+          tool: zizmor@1.29.0
+          fallback: none
+      - run: zizmor --strict-collection .
+        env:
+          GH_TOKEN: ${{ github.token }}

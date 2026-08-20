@@ -1,0 +1,13 @@
+# Python virtual environments and caches
+.venv/
+__pycache__/
+
+# Zensical build output
+site/
+
+# Agent tooling
+.claude/
+.playwright-mcp/
+
+# Retained local-only work
+.private/
