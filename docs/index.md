@@ -6,4 +6,4 @@ The [Tooling](tooling/index.md) section is the first part of the guide. It surve
 
 ## Help improve this guide
 
-The openEHR tooling landscape changes frequently. Please raise corrections and additions through the [openEHR Discourse forum](https://discourse.openehr.org/) or a pull request to the [site repository](https://github.com/openEHR/developer.openehr.org).
+The openEHR tooling landscape changes frequently. Please raise corrections and additions through the [Developer Guide feedback thread on openEHR Discourse](https://discourse.openehr.org/t/developer-openehr-org-new-developer-guides-site-trial/17215) or a pull request to the [site repository](https://github.com/openEHR/developer.openehr.org).
