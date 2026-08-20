@@ -2,7 +2,7 @@
 
 Welcome to the openEHR Developer Guide. This site provides practical guidance for developers working with openEHR.
 
-The [Tooling Guide](tooling/index.md) is the first section. It surveys authoring tools, clinical data repositories, SDKs, query tools, and legacy software. Future sections will cover implementation and conformance.
+The [Tooling](tooling/index.md) section is the first part of the guide. It surveys authoring tools, clinical data repositories, SDKs, query tools, and legacy software. [Implementation](implementation/index.md) and [Conformance](conformance/index.md) will follow.
 
 ## Help improve this guide
 
