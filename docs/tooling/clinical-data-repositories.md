@@ -9,7 +9,7 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 | Status | Active |
 | Cost | Free (MIT) |
 | Open source | Yes |
-| Platform | Rust / PostgreSQL 18 - single static binary, Docker images and a Helm chart |
+| Platform | Rust / PostgreSQL 18 - static binaries for bare metal, Docker images, and a Helm chart for Kubernetes |
 | Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
 | Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/rubentalstra/FerroEHR/releases) |
 | Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |

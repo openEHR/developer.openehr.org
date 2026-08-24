@@ -12,7 +12,7 @@
 | Nedap VS Code Extension | ADL/AQL in VS Code | Free | Yes | All | Active |
 | Medical Flows | Clinical workflow modelling | Commercial | No | Web | Active |
 | CKM (openEHR) | Archetype/template repository and governance | Free to use | No (software) | Web | Current |
-| FerroEHR | openEHR CDR / server | Free | Yes | All (Docker) | Active |
+| FerroEHR | openEHR CDR / server | Free | Yes | All (binary, Docker, Kubernetes) | Active |
 | EHRbase | openEHR CDR / server | Free | Yes | All (Docker) | Current |
 | Better Platform | openEHR CDR and full platform | Commercial | No | Cloud/on-premise | Current |
 | EHRServer (Cabolabs) | openEHR CDR | Free | Yes | Self-hosted | Active |
