@@ -52,3 +52,22 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 **What it is:** An open-source, service-oriented openEHR CDR from Cabolabs. It provides a secure REST API supporting JSON and XML, with query capabilities.
 
 **Who should use it:** Smaller projects and teams wanting a lighter-weight alternative to EHRbase, particularly in Latin America where Cabolabs is active.
+
+## FerroEHR
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (MIT) |
+| Open source | Yes |
+| Platform | Rust / PostgreSQL 18 - single static binary, Docker images and a Helm chart |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/rubentalstra/FerroEHR/releases) |
+| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
+| Commercial support | None |
+
+**What it is:** An MIT-licensed openEHR CDR written in Rust. The RM, BASE and AM types and the canonical JSON/XML codecs are generated from the published machine-readable specifications, and the server ships as one static binary on PostgreSQL 18.
+
+**What it does:** It provides the openEHR REST API (ITS-REST 1.1.0) with canonical JSON and XML, an AQL 1.1 engine, template management in both ADL 1.4 and ADL 2, the simplified formats (WebTemplate, FLAT, STRUCTURED), EHR Extract, demographics, and a web admin console. The repository includes a conformance runner that executes a machine-readable test catalogue against the server; the run records are committed, so the published conformance and performance numbers can be checked against the artifacts that produced them.
+
+**Who should use it:** Developers who want a small self-contained openEHR backend, and evaluators who want to check a CDR's conformance claims against committed test runs. It is a young project with a single maintainer, and its documentation states that support position plainly.
