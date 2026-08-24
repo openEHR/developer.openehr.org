@@ -22,6 +22,19 @@ The most common way to run AQL queries against EHRbase is directly through the R
 
 **What it is:** Better's integrated development environment for its openEHR platform, including an AQL Builder with a graphical query-construction interface. It is not available as a standalone free tool.
 
+## openEHRTool (CRS4)
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | Yes |
+| Owner and developer | [CRS4](https://www.crs4.it/) |
+| Available from | [github.com/crs4/openEHRTool-v2](https://github.com/crs4/openEHRTool-v2) |
+| Source | [github.com/crs4/openEHRTool-v2](https://github.com/crs4/openEHRTool-v2) |
+
+**What it is:** A web app to interact with an openEHR CDR API, instead of using Postman for instance, currently implemented for EHRBase.
+
+
 ## AQL Builder for EHRbase (CRS4)
 
 | | |
