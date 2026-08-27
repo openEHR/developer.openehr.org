@@ -22,6 +22,20 @@ The most common way to run AQL queries against EHRbase is directly through the R
 
 **What it is:** Better's integrated development environment for its openEHR platform, including an AQL Builder with a graphical query-construction interface. It is not available as a standalone free tool.
 
+## openEHRTool (CRS4)
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (GPL-3.0) |
+| Open source | Yes |
+| Platform | Web application / Docker |
+| Owner and developer | [CRS4](https://www.crs4.it/) |
+| Available from | [github.com/crs4/openEHRTool-v2](https://github.com/crs4/openEHRTool-v2) |
+| Source | [github.com/crs4/openEHRTool-v2](https://github.com/crs4/openEHRTool-v2) |
+
+**What it is:** A web application for interacting with an EHRbase server. It provides interfaces for EHR, template, composition, query, and other openEHR REST API operations as a purpose-built alternative to a general API client.
+
 ## AQL Builder for EHRbase (CRS4)
 
 | | |
@@ -40,13 +54,13 @@ The most common way to run AQL queries against EHRbase is directly through the R
 | | |
 | --- | --- |
 | Status | Active |
-| Cost | Free |
-| Open source | Yes (Apache 2.0) |
-| Platform | Windows, Linux, macOS (Tauri v2) |
+| Cost | Free (Apache 2.0) |
+| Open source | Yes |
+| Platform | Desktop application for Windows, Linux, and macOS |
 | Owner and developer | [platzhersh](https://github.com/platzhersh) |
-| Available from | [platzhersh.github.io/openehr-explorer](https://platzhersh.github.io/openehr-explorer/) |
+| Available from | [GitHub releases](https://github.com/platzhersh/openehr-explorer/releases/latest) |
 | Source | [github.com/platzhersh/openehr-explorer](https://github.com/platzhersh/openehr-explorer) |
 
-**What it is:** A cross-platform desktop app for browsing and querying openEHR CDR instances - built as "the Postman for openEHR." Server profiles, AQL queries, and environments are stored as files rather than a locked-in database, with secrets kept in the OS keychain. Targets EHRbase, with additional CDR support in progress.
+**What it is:** A cross-platform desktop application for browsing openEHR EHRs, compositions, and templates. It includes an AQL editor with autocomplete, saved queries, tabular results, and CSV export, along with an inspector for the underlying REST requests.
 
-**Who should use it:** Developers who want a dedicated GUI for exploring CDR contents and iterating on AQL queries, as an alternative to raw REST calls via Postman, Insomnia, or curl.
+**Who should use it:** Developers who want a dedicated graphical client for exploring CDR contents and iterating on AQL queries instead of using a general REST client.
