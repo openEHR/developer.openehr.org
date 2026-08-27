@@ -53,6 +53,26 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 
 **Who should use it:** Smaller projects and teams wanting a lighter-weight alternative to EHRbase, particularly in Latin America where Cabolabs is active.
 
+## ArcEHR (Medical)
+
+| | |
+| --- | --- |
+| Status | Private beta |
+| Cost | Commercial co-development |
+| Open source | No - a future Apache-2.0 release is planned |
+| Platform | Java / ArcadeDB - self-hosted |
+| Owner and developer | [Medical](https://medical.si) |
+| Available from | [arcehr.com](https://arcehr.com) |
+| Source | Not publicly available; production beta partners receive source access |
+
+**What it is:** A private-beta openEHR CDR built on the ArcadeDB multi-model database. It supports AQL alongside SQL, Cypher, Gremlin, and GraphQL queries.
+
+**What it does:** The project describes an openEHR Reference Model repository with REST API endpoints, template and composition storage, EHR management, and access through ArcadeDB's query languages and PostgreSQL wire protocol.
+
+**Who should use it:** Organisations willing to join the private beta and co-develop a self-hosted CDR. It is not currently a publicly downloadable open-source option.
+
+The project states that it intends to publish ArcEHR under Apache 2.0 and eventually transfer ownership to a community-driven foundation. These are future plans rather than the current licensing and governance model.
+
 ## FerroEHR
 
 | | |
