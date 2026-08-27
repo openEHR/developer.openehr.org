@@ -19,3 +19,4 @@
 | openEHR SDK (Java) | SDK for EHRbase/openEHR | Free | Yes | Java | Active |
 | ADL2 Core | ADL 2 Java reference implementation | Free | Yes | Java | Source available; maintenance unclear |
 | FHIR Bridge | FHIR-to-openEHR broker | Free | Yes | Java | Source available; release and support status unclear |
+| openEHRTool | EHRbase REST API client | Free | Yes | Web / Docker | Active |
