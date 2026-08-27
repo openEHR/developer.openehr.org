@@ -49,6 +49,22 @@ The most common way to run AQL queries against EHRbase is directly through the R
 
 **What it is:** An adaptation of Better's open-source AQL Builder UI components, modified to work with EHRbase rather than Better Platform.
 
+## FerroEHR admin console
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (MIT) |
+| Open source | Yes |
+| Platform | Web application / Docker |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [FerroEHR quick start](https://ferroehr.eu/docs/latest/getting-started.html) |
+| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
+
+**What it is:** The optional web administration console for FerroEHR. Its query workbench includes an AQL editor and a graphical query builder, saved parameterised queries, table and chart results, and CSV and JSON export.
+
+**Who should use it:** Developers running FerroEHR who want to write and test AQL against their own data in a browser.
+
 ## openEHR Explorer
 
 | | |

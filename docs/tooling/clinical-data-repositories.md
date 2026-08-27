@@ -52,3 +52,22 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 **What it is:** An open-source, service-oriented openEHR CDR from Cabolabs. It provides a secure REST API supporting JSON and XML, with query capabilities.
 
 **Who should use it:** Smaller projects and teams wanting a lighter-weight alternative to EHRbase, particularly in Latin America where Cabolabs is active.
+
+## FerroEHR
+
+| | |
+| --- | --- |
+| Status | Active - young project with one maintainer |
+| Cost | Free (MIT) |
+| Open source | Yes |
+| Platform | Rust / PostgreSQL 18 - binaries, containers, and a Helm chart are available |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/rubentalstra/FerroEHR/releases/latest) |
+| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
+| Commercial support | None |
+
+**What it is:** An open-source openEHR CDR written in Rust and backed by PostgreSQL 18. Its openEHR model types and JSON and XML codecs are generated from the published machine-readable specifications.
+
+**What it does:** It implements the openEHR REST API 1.1.0, AQL 1.1, ADL 1.4 and 2.4 template management, simplified data formats, EHR Extract, demographics, and a web administration console. The repository includes machine-readable conformance run records alongside the runner that produced them.
+
+**Who should use it:** Developers evaluating a self-hosted openEHR backend, particularly those who want to inspect the implementation and its published conformance evidence. Its single-maintainer status should be considered when assessing production support needs.
