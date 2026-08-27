@@ -57,18 +57,37 @@ Clinical data repositories (CDRs) store patient data in openEHR format. They exp
 
 | | |
 | --- | --- |
-| Status | Active - source available |
-| Cost | Support Fee |
-| Open source | Yes - for supporters |
-| Platform | Java / ArcadeDB - Apache 2.0 licensed |
-| Owner and developer | [ArcEHR project](https://arcehr.com), supported by [Medical](https://medical.si) |
-| Available from | [ArcEHR](https://arcehr.com) |
-| Source | [github.com/ArcadeEHR](https://github.com/ArcadeEHR) |
+| Status | Private beta |
+| Cost | Commercial co-development |
+| Open source | No - a future Apache-2.0 release is planned |
+| Platform | Java / ArcadeDB - self-hosted |
+| Owner and developer | [Medical](https://medical.si) |
+| Available from | [arcehr.com](https://arcehr.com) |
+| Source | Not publicly available; production beta partners receive source access |
 
-**What it is:** A source-available openEHR CDR developed on a Apache 2.0 graph database. It offers querying with AQL, SQL, Cypher, Gremlin, GraphQL.
+**What it is:** A private-beta openEHR CDR built on the ArcadeDB multi-model database. It supports AQL alongside SQL, Cypher, Gremlin, and GraphQL queries.
 
-**What it does:** It provides a standards-compliant openEHR server with REST API 1.1.0 support, an AQL query engine, template management, composition storage, and EHR management.
+**What it does:** The project describes an openEHR Reference Model repository with REST API endpoints, template and composition storage, EHR management, and access through ArcadeDB's query languages and PostgreSQL wire protocol.
 
-**Who should use it:** Developers or organisations building openEHR applications that want to have full control of their CDR with access to source code and royalty free license.
+**Who should use it:** Organisations willing to join the private beta and co-develop a self-hosted CDR. It is not currently a publicly downloadable open-source option.
 
-**Open source:** As the project matures, the plan is to transition ownership to a community-driven foundation, ensuring that ArcEHR remains open source and vendor-neutral for the long term.
+The project states that it intends to publish ArcEHR under Apache 2.0 and eventually transfer ownership to a community-driven foundation. These are future plans rather than the current licensing and governance model.
+
+## FerroEHR
+
+| | |
+| --- | --- |
+| Status | Active - young project with one maintainer |
+| Cost | Free (MIT) |
+| Open source | Yes |
+| Platform | Rust / PostgreSQL 18 - binaries, containers, and a Helm chart are available |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/rubentalstra/FerroEHR/releases/latest) |
+| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
+| Commercial support | None |
+
+**What it is:** An open-source openEHR CDR written in Rust and backed by PostgreSQL 18. Its openEHR model types and JSON and XML codecs are generated from the published machine-readable specifications.
+
+**What it does:** It implements the openEHR REST API 1.1.0, AQL 1.1, ADL 1.4 and 2.4 template management, simplified data formats, EHR Extract, demographics, and a web administration console. The repository includes machine-readable conformance run records alongside the runner that produced them.
+
+**Who should use it:** Developers evaluating a self-hosted openEHR backend, particularly those who want to inspect the implementation and its published conformance evidence. Its single-maintainer status should be considered when assessing production support needs.
