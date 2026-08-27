@@ -48,3 +48,19 @@ The most common way to run AQL queries against EHRbase is directly through the R
 | Source | [github.com/crs4/aqlbetter](https://github.com/crs4/aqlbetter) |
 
 **What it is:** An adaptation of Better's open-source AQL Builder UI components, modified to work with EHRbase rather than Better Platform.
+
+## openEHR Explorer
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (Apache 2.0) |
+| Open source | Yes |
+| Platform | Desktop application for Windows, Linux, and macOS |
+| Owner and developer | [platzhersh](https://github.com/platzhersh) |
+| Available from | [GitHub releases](https://github.com/platzhersh/openehr-explorer/releases/latest) |
+| Source | [github.com/platzhersh/openehr-explorer](https://github.com/platzhersh/openehr-explorer) |
+
+**What it is:** A cross-platform desktop application for browsing openEHR EHRs, compositions, and templates. It includes an AQL editor with autocomplete, saved queries, tabular results, and CSV export, along with an inspector for the underlying REST requests.
+
+**Who should use it:** Developers who want a dedicated graphical client for exploring CDR contents and iterating on AQL queries instead of using a general REST client.
