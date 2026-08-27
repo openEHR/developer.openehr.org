@@ -12,11 +12,13 @@
 | Nedap VS Code Extension | ADL/AQL in VS Code | Free | Yes | All | Active |
 | Medical Flows | Clinical workflow modelling | Commercial | No | Web | Active |
 | CKM (openEHR) | Archetype/template repository and governance | Free to use | No (software) | Web | Current |
-| FerroEHR | openEHR CDR / server | Free | Yes | All (binary, Docker, Kubernetes) | Active |
 | EHRbase | openEHR CDR / server | Free | Yes | All (Docker) | Current |
 | Better Platform | openEHR CDR and full platform | Commercial | No | Cloud/on-premise | Current |
 | EHRServer (Cabolabs) | openEHR CDR | Free | Yes | Self-hosted | Active |
+| FerroEHR | openEHR CDR / server | Free | Yes | Binary / Docker / Kubernetes | Active |
 | Archie (Java library) | RM/ADL Java implementation | Free | Yes | Java | Active |
 | openEHR SDK (Java) | SDK for EHRbase/openEHR | Free | Yes | Java | Active |
 | ADL2 Core | ADL 2 Java reference implementation | Free | Yes | Java | Source available; maintenance unclear |
 | FHIR Bridge | FHIR-to-openEHR broker | Free | Yes | Java | Source available; release and support status unclear |
+| openEHRTool | EHRbase REST API client | Free | Yes | Web / Docker | Active |
+| openEHR Explorer | Desktop client for browsing and querying CDRs | Free | Yes | Windows / Linux / macOS | Active |
