@@ -73,3 +73,19 @@
 | Source | [github.com/vitagroupag/fhir-bridge](https://github.com/vitagroupag/fhir-bridge) |
 
 **What it is:** A broker between HL7 FHIR clients and an openEHR server, specifically EHRbase. It allows FHIR-speaking applications to read and write data to an openEHR CDR.
+
+## openFHIR
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (open-source edition, Apache 2.0); commercial Enterprise edition |
+| Open source | Yes (open-source edition) |
+| Language | Java |
+| Owner and developer | [openFHIR](https://open-fhir.com/) |
+| Available from | [open-fhir.com](https://open-fhir.com/) |
+| Source | [github.com/openFHIR/openfhir](https://github.com/openFHIR/openfhir) |
+
+**What it is:** An engine that implements the FHIRConnect specification for bidirectional mapping between openEHR and HL7 FHIR. It sits alongside an openEHR repository and a FHIR server, translating data between the two. An open-source edition covers foundational mapping; a commercial Enterprise edition adds features such as multitenancy, terminology integration, and analytics.
+
+**Who should use it:** Teams that need to exchange data between openEHR and FHIR systems using declarative, specification-based mappings rather than hand-coded brokers.
