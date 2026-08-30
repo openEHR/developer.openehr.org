@@ -79,13 +79,13 @@
 | | |
 | --- | --- |
 | Status | Active |
-| Cost | Free (open-source edition, Apache 2.0); commercial Enterprise edition |
-| Open source | Yes (open-source edition) |
-| Language | Java |
+| Cost | Free (Apache 2.0) open-source edition; commercial Enterprise edition |
+| Open source | Yes |
+| Platform | Java / Docker |
 | Owner and developer | [openFHIR](https://open-fhir.com/) |
-| Available from | [open-fhir.com](https://open-fhir.com/) |
+| Available from | [GitHub releases](https://github.com/openFHIR/openFHIR/releases/latest) and [openFHIR sandbox](https://sandbox.open-fhir.com/) |
 | Source | [github.com/openFHIR/openfhir](https://github.com/openFHIR/openfhir) |
 
-**What it is:** An engine that implements the FHIRConnect specification for bidirectional mapping between openEHR and HL7 FHIR. It sits alongside an openEHR repository and a FHIR server, translating data between the two. An open-source edition covers foundational mapping; a commercial Enterprise edition adds features such as multitenancy, terminology integration, and analytics.
+**What it is:** An engine that implements the FHIR Connect specification for bidirectional mapping between openEHR compositions and HL7 FHIR resources. It translates data without storing the clinical data itself. The commercial Enterprise edition adds production capabilities including authentication, terminology integration, multitenancy, operational-template synchronization, and performance optimizations.
 
-**Who should use it:** Teams that need to exchange data between openEHR and FHIR systems using declarative, specification-based mappings rather than hand-coded brokers.
+**Who should use it:** Teams evaluating declarative, specification-based mappings between openEHR and FHIR systems. The project explicitly states that its open-source edition is not intended for production use because it lacks authentication, role-based access control, terminology integration, and other production capabilities; production users should assess the Enterprise edition or provide equivalent controls themselves.
