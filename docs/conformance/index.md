@@ -4,26 +4,22 @@ Conformance guidance is being developed for the openEHR Developer Guide.
 
 For now, see the [Tooling](../tooling/index.md) section and the [openEHR specifications](https://specifications.openehr.org/).
 
-## Testing conformance today
+## Conformance specifications
 
-The openEHR Conformance (CNF) component defines the concepts — a conformance
-statement, a test schedule, profiles — and its Platform Conformance Test
-Schedule (last content amendment March 2022) describes which behaviours a
-platform product should be tested for. The CNF component has not published a
-stable release, and its assessment layer was not written.
+The official [openEHR Conformance Specifications (CNF) component](https://specifications.openehr.org/releases/CNF/development/) is a work in progress and has not published a stable release. Its development materials include a conformance guide, platform conformance test schedule, platform profiles, and certificate format. These materials describe the intended assessment structure, while the released specifications for each openEHR component remain the normative source for product behaviour.
 
-[Veredictum](https://veredictum.eu) is an independent, community-driven
-conformance instrument built on those concepts. It executes a machine-readable
-catalogue of 1143 test cases, each citing the released specification section
-it enforces, against a running CDR over its REST API (ITS-REST 1.1.0,
-AQL 1.1), records every exchange, and computes verdicts as pure functions over
-the record, so a report is reproducible by anyone from the same inputs. Runs
-can be sealed with a digest manifest and detached signature. It is pre-1.0 and
-is not an openEHR Foundation product; the released openEHR specifications are
-its only test authority, and where they are silent it records the gap in a
-public ambiguity register and reports it to the SEC rather than deciding
-privately.
+## Veredictum
 
-- Documentation: <https://veredictum.eu/docs/>
-- Source and catalogue: <https://github.com/rubentalstra/Veredictum>
-- Published on crates.io as `veredictum`
+| | |
+| --- | --- |
+| Status | Active - pre-1.0 |
+| Cost | Free (Apache 2.0) |
+| Open source | Yes |
+| Platform | Rust CLI / web console |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [veredictum.eu](https://veredictum.eu/) and [GitHub releases](https://github.com/rubentalstra/Veredictum/releases/latest) |
+| Source | [github.com/rubentalstra/Veredictum](https://github.com/rubentalstra/Veredictum) |
+
+**What it is:** An independent conformance-testing instrument for openEHR CDRs. It runs a machine-readable, specification-cited test catalogue against a CDR, records the exchanges, and derives verdicts from the recorded results. It supports testing the openEHR REST API and AQL, and can seal result bundles with a digest manifest and detached signature.
+
+**How to interpret results:** A Veredictum report is evidence from a named version of an independent, pre-1.0 tool against a particular system and test run. Veredictum is not an openEHR Foundation product, and its reports are not official openEHR certification.
