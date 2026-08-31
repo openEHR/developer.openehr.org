@@ -89,28 +89,3 @@
 **What it is:** An engine that implements the FHIR Connect specification for bidirectional mapping between openEHR compositions and HL7 FHIR resources. It translates data without storing the clinical data itself. The commercial Enterprise edition adds production capabilities including authentication, terminology integration, multitenancy, operational-template synchronization, and performance optimizations.
 
 **Who should use it:** Teams evaluating declarative, specification-based mappings between openEHR and FHIR systems. The project explicitly states that its open-source edition is not intended for production use because it lacks authentication, role-based access control, terminology integration, and other production capabilities; production users should assess the Enterprise edition or provide equivalent controls themselves.
-
-## openEHR .NET (ClaroTech)
-
-| | |
-| --- | --- |
-| Status | Active |
-| Cost | Free (Apache 2.0)  |
-| Open source | Yes |
-| Platform | C# .NET|
-| Owner and developer | [Richard Kavanagh](https://www.linkedin.com/in/richardkavanagh/) |
-| Available from | [Nuget.org](https://www.nuget.org/profiles/clarotechuk)|
-| Source | [github.com/openFHIR/clarotech](https://github.com/openFHIR/clarotech) |
-
-**What it is:** A collection of open source C# libraries for building applications using C#.
-
-
-[Clarotech.OpenEHR.RM.Datatypes](https://github.com/clarotech/openEHRDataTypes) published on [Nuget](https://www.nuget.org/packages/Clarotech.OpenEHR.RM.Datatypes)
-
-[Clarotech.OpenEHR.RM](https://github.com/clarotech/openEHR-ehr) published on [Nuget](https://www.nuget.org/packages/Clarotech.OpenEHR.RM)
-
-[Clarotech.OpenEHR.RM.Json](https://github.com/clarotech/openEHR-json) published on [Nuget](https://www.nuget.org/packages/Clarotech.OpenEHR.RM.Json)
-
-[Clarotech.OpenEHR.RM.Flat](https://github.com/clarotech/openEHR-flat) published on [Nuget](https://www.nuget.org/packages/Clarotech.OpenEHR.RM.Flat)
-
-**Who should use it:** Developers build openEHR applications using the .NET technology stack.
