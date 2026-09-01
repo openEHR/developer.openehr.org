@@ -24,3 +24,4 @@
 | openFHIR | Bidirectional openEHR/FHIR mapping engine | Free / commercial | Yes (open-source edition) | Java / Docker | Active |
 | openEHRTool | EHRbase REST API client | Free | Yes | Web / Docker | Active |
 | openEHR Explorer | Desktop client for browsing and querying CDRs | Free | Yes | Windows / Linux / macOS | Active |
+| ehr-ctrl | Desktop client for querying and administering CDRs | Free | No | Windows / Linux / macOS | Active |
