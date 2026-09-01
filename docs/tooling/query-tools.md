@@ -80,3 +80,20 @@ The most common way to run AQL queries against EHRbase is directly through the R
 **What it is:** A cross-platform desktop application for browsing openEHR EHRs, compositions, and templates. It includes an AQL editor with autocomplete, saved queries, tabular results, and CSV export, along with an inspector for the underlying REST requests.
 
 **Who should use it:** Developers who want a dedicated graphical client for exploring CDR contents and iterating on AQL queries instead of using a general REST client.
+
+## ehr-ctrl
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free |
+| Open source | No |
+| Platform | Desktop application for Windows, Linux, and macOS |
+| Owner and developer | [Richard Kavanagh](https://www.linkedin.com/in/richardkavanagh/) |
+| Available from | [ehr-ctrl downloads](https://www.ehr-ctrl.info/downloads) |
+
+**What it is:** A cross-platform desktop client for querying, inspecting, and administering openEHR CDRs through the REST API. Its documentation focuses on EHRbase and describes support for EHRs, compositions, templates, contributions, directories, and stored queries, with request and response diagnostics.
+
+**What it does:** It includes an AQL editor with autocomplete, saved queries, CSV export, template management, and CRUD interfaces for supported CDR resources.
+
+**Who should use it:** Developers and clinical IT teams that want a desktop interface for exploring or administering an EHRbase deployment or testing compatibility with another openEHR CDR.
