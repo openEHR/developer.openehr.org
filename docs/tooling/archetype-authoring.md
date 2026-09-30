@@ -62,7 +62,7 @@ These tools create and edit archetypes from scratch or modify existing ones.
 
 | | |
 | --- | --- |
-| Status | Web-based companion tool |
+| Status | Active |
 | Cost | Free |
 | Open source | Yes |
 | Platform | Web-based |

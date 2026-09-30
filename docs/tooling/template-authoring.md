@@ -29,6 +29,22 @@ Archetype Designer handles both archetype and template authoring in a single too
 
 **Who might still use it:** Anyone maintaining older `.oet` templates. Avoid it for new projects.
 
+## Archetype Inclusion Patterns
+
+| | |
+| --- | --- |
+| Status | Active |
+| Cost | Free (Apache 2.0) |
+| Open source | Yes |
+| Platform | Browser-based |
+| Owner and developer | [Martin A. Koch, PhD](https://github.com/martinkochdesign/) (CatSalut) |
+| Available from | [hosted visualization](https://martinkochdesign.github.io/openEHR_archetype_inclusion_patterns/) |
+| Source | [github.com/martinkochdesign/openEHR_archetype_inclusion_patterns](https://github.com/martinkochdesign/openEHR_archetype_inclusion_patterns/) |
+
+**What it is:** An interactive network visualization of archetype containment relationships extracted from operational templates in several international, national, and regional CKM mirrors. Relationships are aggregated across the sampled templates and classified by frequency.
+
+**Who should use it:** Template modellers studying common archetype reuse and nesting patterns. It is an analysis and reference tool rather than a template editor, and its results reflect the source mirrors and generation date used for the published dataset.
+
 ## Medical Flows Template Designer
 
 | | |

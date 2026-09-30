@@ -28,3 +28,4 @@
 | ehr-ctrl | Desktop client for querying and administering CDRs | Free | No | Windows / Linux / macOS | Active |
 | AQL Manager | Organize and format AQL collections | Free | Yes | Web / offline | Active |
 | openEHR RM Browser | Browse the Reference Model hierarchy | Free | Source available | Web / offline | Active |
+| Archetype Inclusion Patterns | Visualize archetype containment in templates | Free | Yes | Web | Active |
