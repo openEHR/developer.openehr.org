@@ -71,7 +71,7 @@ The most common way to run AQL queries against EHRbase is directly through the R
 | --- | --- |
 | Status | Active |
 | Cost | Free for non-production use and for non-commercial production use; other production use needs a commercial licence |
-| Open source | No - source-available under the Business Source License 1.1 |
+| Open source | No - source-available (BUSL-1.1) |
 | Platform | Web application / Docker |
 | Owner and developer | [Cadasto B.V.](https://www.cadasto.com/) (licensor); developed by [Ruben Talstra](https://github.com/rubentalstra) |
 | Available from | [FerroEHR Viewer documentation](https://ferroehr.eu/docs/latest/viewer/index.html) |

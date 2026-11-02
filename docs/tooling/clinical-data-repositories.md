@@ -79,7 +79,7 @@ The project states that it intends to publish ArcEHR under Apache 2.0 and eventu
 | --- | --- |
 | Status | Active |
 | Cost | Free for non-production use and for non-commercial production use; other production use needs a commercial licence |
-| Open source | No - source-available under the Business Source License 1.1; each version becomes Apache-2.0 four years after its release |
+| Open source | No - source-available (BUSL-1.1) |
 | Platform | Rust / PostgreSQL 18 - binaries, containers, and a Helm chart are available |
 | Owner and developer | [Cadasto B.V.](https://www.cadasto.com/) (licensor); developed by [Ruben Talstra](https://github.com/rubentalstra) |
 | Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/FerroHEALTH/FerroEHR/releases/latest) |
