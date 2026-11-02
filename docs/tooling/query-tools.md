@@ -65,19 +65,19 @@ The most common way to run AQL queries against EHRbase is directly through the R
 
 **Who should use it:** Developers and analysts maintaining reusable AQL collections who want formatting and organization without connecting the tool to a CDR. It does not execute queries or validate them against a server.
 
-## FerroEHR admin console
+## FerroEHR Viewer
 
 | | |
 | --- | --- |
 | Status | Active |
-| Cost | Free (MIT) |
-| Open source | Yes |
+| Cost | Free for non-production use and for non-commercial production use; other production use needs a commercial licence |
+| Open source | No - source-available under the Business Source License 1.1 |
 | Platform | Web application / Docker |
-| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
-| Available from | [FerroEHR quick start](https://ferroehr.eu/docs/latest/getting-started.html) |
-| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
+| Owner and developer | [Cadasto B.V.](https://www.cadasto.com/) (licensor); developed by [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [FerroEHR Viewer documentation](https://ferroehr.eu/docs/latest/viewer/index.html) |
+| Source | [github.com/FerroHEALTH/FerroEHR](https://github.com/FerroHEALTH/FerroEHR) |
 
-**What it is:** The optional web administration console for FerroEHR. Its query workbench includes an AQL editor and a graphical query builder, saved parameterised queries, table and chart results, and CSV and JSON export.
+**What it is:** The web interface for FerroEHR, working over the same public REST API. Its query pages include an AQL editor and a query builder driven by a template, table and chart results, export, and stored queries saved to the CDR as versioned stored queries.
 
 **Who should use it:** Developers running FerroEHR who want to write and test AQL against their own data in a browser.
 

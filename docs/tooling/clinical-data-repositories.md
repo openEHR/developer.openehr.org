@@ -78,16 +78,16 @@ The project states that it intends to publish ArcEHR under Apache 2.0 and eventu
 | | |
 | --- | --- |
 | Status | Active - young project with one maintainer |
-| Cost | Free (MIT) |
-| Open source | Yes |
+| Cost | Free for non-production use and for non-commercial production use; other production use needs a commercial licence |
+| Open source | No - source-available under the Business Source License 1.1; each version becomes Apache-2.0 four years after its release |
 | Platform | Rust / PostgreSQL 18 - binaries, containers, and a Helm chart are available |
-| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
-| Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/rubentalstra/FerroEHR/releases/latest) |
-| Source | [github.com/rubentalstra/FerroEHR](https://github.com/rubentalstra/FerroEHR) |
-| Commercial support | None |
+| Owner and developer | [Cadasto B.V.](https://www.cadasto.com/) (licensor); developed by [Ruben Talstra](https://github.com/rubentalstra) |
+| Available from | [ferroehr.eu](https://ferroehr.eu/) and [GitHub releases](https://github.com/FerroHEALTH/FerroEHR/releases/latest) |
+| Source | [github.com/FerroHEALTH/FerroEHR](https://github.com/FerroHEALTH/FerroEHR) |
+| Commercial support | Commercial licensing through [Cadasto B.V.](https://www.cadasto.com/contact/) |
 
-**What it is:** An open-source openEHR CDR written in Rust and backed by PostgreSQL 18. Its openEHR model types and JSON and XML codecs are generated from the published machine-readable specifications.
+**What it is:** A source-available openEHR CDR written in Rust and backed by PostgreSQL 18. Its openEHR model types and JSON and XML codecs are generated from the published machine-readable specifications. It is part of the FerroHEALTH family, in which separate servers handle FHIR and OMOP translation, federation, patient identity, and terminology.
 
-**What it does:** It implements the openEHR REST API 1.1.0, AQL 1.1, ADL 1.4 and 2.4 template management, simplified data formats, EHR Extract, demographics, and a web administration console. The repository includes machine-readable conformance run records alongside the runner that produced them.
+**What it does:** It implements the openEHR REST API 1.1.0, AQL 1.1 with stored queries, ADL 1.4 and ADL 2.4 template management with validation on every write, full version history, demographics, and EHR Extract import and export. It offers a choice between the released and the development openEHR specification generations, and a web interface, the FerroEHR Viewer. The repository publishes machine-readable conformance records from runs of the independent Veredictum instrument.
 
-**Who should use it:** Developers evaluating a self-hosted openEHR backend, particularly those who want to inspect the implementation and its published conformance evidence. Its single-maintainer status should be considered when assessing production support needs.
+**Who should use it:** Developers evaluating a self-hosted openEHR backend, particularly those who want to inspect the implementation and its published conformance evidence. Its licence terms and its single-maintainer status should be considered when assessing production use and support needs.
