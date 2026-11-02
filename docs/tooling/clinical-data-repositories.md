@@ -77,7 +77,7 @@ The project states that it intends to publish ArcEHR under Apache 2.0 and eventu
 
 | | |
 | --- | --- |
-| Status | Active - young project with one maintainer |
+| Status | Active |
 | Cost | Free for non-production use and for non-commercial production use; other production use needs a commercial licence |
 | Open source | No - source-available under the Business Source License 1.1; each version becomes Apache-2.0 four years after its release |
 | Platform | Rust / PostgreSQL 18 - binaries, containers, and a Helm chart are available |
