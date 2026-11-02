@@ -16,7 +16,7 @@ The official [openEHR Conformance Specifications (CNF) component](https://specif
 | Cost | Free (Apache 2.0) |
 | Open source | Yes |
 | Platform | Rust CLI / web console |
-| Owner and developer | [Vernum Projecten B.V.](https://github.com/Vernum-Projecten); developed by [Ruben Talstra](https://github.com/rubentalstra) |
+| Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
 | Available from | [veredictum.eu](https://veredictum.eu/) and [GitHub releases](https://github.com/Vernum-Projecten/Veredictum/releases/latest) |
 | Source | [github.com/Vernum-Projecten/Veredictum](https://github.com/Vernum-Projecten/Veredictum) |
 
