@@ -17,8 +17,8 @@ The official [openEHR Conformance Specifications (CNF) component](https://specif
 | Open source | Yes |
 | Platform | Rust CLI / web console |
 | Owner and developer | [Ruben Talstra](https://github.com/rubentalstra) |
-| Available from | [veredictum.eu](https://veredictum.eu/) and [GitHub releases](https://github.com/rubentalstra/Veredictum/releases/latest) |
-| Source | [github.com/rubentalstra/Veredictum](https://github.com/rubentalstra/Veredictum) |
+| Available from | [veredictum.eu](https://veredictum.eu/) and [GitHub releases](https://github.com/Vernum-Projecten/Veredictum/releases/latest) |
+| Source | [github.com/Vernum-Projecten/Veredictum](https://github.com/Vernum-Projecten/Veredictum) |
 
 **What it is:** An independent conformance-testing instrument for openEHR CDRs. It runs a machine-readable, specification-cited test catalogue against a CDR, records the exchanges, and derives verdicts from the recorded results. It supports testing the openEHR REST API and AQL, and can seal result bundles with a digest manifest and detached signature.
 

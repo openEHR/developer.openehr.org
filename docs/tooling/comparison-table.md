@@ -16,7 +16,7 @@
 | Better Platform | openEHR CDR and full platform | Commercial | No | Cloud/on-premise | Current |
 | EHRServer (Cabolabs) | openEHR CDR | Free | Yes | Self-hosted | Active |
 | ArcEHR | openEHR CDR | Commercial | No (planned) | Self-hosted | Private beta |
-| FerroEHR | openEHR CDR / server | Free | Yes | Binary / Docker / Kubernetes | Active |
+| FerroEHR | openEHR CDR / server | Free / commercial | No (source-available) | Binary / Docker / Kubernetes | Active |
 | Archie (Java library) | RM/ADL Java implementation | Free | Yes | Java | Active |
 | openEHR SDK (Java) | SDK for EHRbase/openEHR | Free | Yes | Java | Active |
 | oehrpy (Python) | Python SDK for openEHR CDRs | Free | Yes | Python | Active - pre-1.0 |
